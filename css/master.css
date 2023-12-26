@@ -1,0 +1,126 @@
+body {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+section {
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.title-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: top;
+    padding: 0;
+    padding-top: 0.5rem;
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.img-bg {
+    width: 100%;
+    height: 7rem;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.page-title {
+    display: flex;
+    color: yellowgreen;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    padding: 2.5rem;
+    text-shadow: 1px 2px 3px white;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    text-shadow: 1px 2px 3px white;
+}
+
+.icon {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.form-group {
+    width: 30rem;
+}
+
+.forecast,
+.card-body,
+.card-title {
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.weather-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.dropdown, .linebot {
+    display: flex;
+}
+
+.card-body {
+    background-color: rgb(9, 9, 79);
+}
+
+#loading-indicator {
+    display: none;
+    text-align: center;
+}
+
+.line {
+    position: absolute;
+    height: 2px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.426);
+}
+.bot {
+    height: 11rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    color: white;
+    background-color: rgba(4, 0, 0, 0.621);
+
+}
